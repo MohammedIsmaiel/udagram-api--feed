@@ -15,7 +15,7 @@ spec:
         service: udagram-api-feed
     spec:
       containers:
-      - image: mohammedismaiel/udagram-api-feed:v5
+      - image: mohammedismaiel/udagram-api-feed:v8
         name: udagram-api-feed
         imagePullPolicy: Always
         command: [ "sleep" ]
