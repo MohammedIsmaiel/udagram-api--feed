@@ -25,7 +25,7 @@ export const config = {
   'aws_region': "eu-west-2",
   'aws_profile': "default",
   'aws_media_bucket': "udagram-micro-bucket",
-  'url': process.env.URL,
+  'url': "http://localhost:8100",
   'jwt': {
     'secret': "my-JWT-secret",
   },
