@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: udagram-api-feed
-        image: mohammedismaiel/udagram-api-feed:v11
+        image: mohammedismaiel/udagram-api-feed:v13
         imagePullPolicy: Always
         resources:
           requests:
